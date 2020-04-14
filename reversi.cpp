@@ -25,7 +25,8 @@ void board(int bm) {
             cout << endl << endl;
         }
     } else {
-        int k = 249;
+        
+        int k = 249;    //you can change the background color by changing this number and the next k integer
         SetConsoleTextAttribute(hConsole, k);
         cout << "   1   2   3   4   5   6   7   8  " << "\n";
         cout << " +---+---+---+---+---+---+---+---+" << endl;
